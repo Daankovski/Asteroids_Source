@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="Application" />
+    <movie input="" />
+    <movie path="bin\AsteroidsSource.swf" />
+    <movie fps="30" />
+    <movie width="2048" />
+    <movie height="1536" />
+    <movie version="16" />
+    <movie minorVersion="0" />
+    <movie platform="Flash Player" />
+    <movie background="#FFFFFF" />
+    <movie preferredSDK="Flex 4.6.0, AIR 17.0;4.6.0, 17.0;" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option accessible="False" />
+    <option advancedTelemetry="False" />
+    <option allowSourcePathOverlap="False" />
+    <option benchmark="False" />
+    <option es="False" />
+    <option inline="False" />
+    <option locale="" />
+    <option loadConfig="" />
+    <option optimize="True" />
+    <option omitTraces="True" />
+    <option showActionScriptWarnings="True" />
+    <option showBindingWarnings="True" />
+    <option showInvalidCSS="True" />
+    <option showDeprecationWarnings="True" />
+    <option showUnusedTypeSelectorWarnings="True" />
+    <option strict="True" />
+    <option useNetwork="True" />
+    <option useResourceBundleMetadata="True" />
+    <option warnings="True" />
+    <option verboseStackTraces="False" />
+    <option linkReport="" />
+    <option loadExterns="" />
+    <option staticLinkRSL="True" />
+    <option additional="" />
+    <option compilerConstants="" />
+    <option minorVersion="" />
+  </build>
+  <!-- SWC Include Libraries -->
+  <includeLibraries>
+    <!-- example: <element path="..." /> -->
+  </includeLibraries>
+  <!-- SWC Libraries -->
+  <libraryPaths>
+    <element path="src\lib\bullet.swc" />
+  </libraryPaths>
+  <!-- External Libraries -->
+  <externalLibraryPaths>
+    <!-- example: <element path="..." /> -->
+  </externalLibraryPaths>
+  <!-- Runtime Shared Libraries -->
+  <rslPaths>
+    <!-- example: <element path="..." /> -->
+  </rslPaths>
+  <!-- Intrinsic Libraries -->
+  <intrinsics>
+    <!-- example: <element path="..." /> -->
+  </intrinsics>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <asset path="src\lib\achtergrond.png" />
+    <asset path="src\lib\enemies\blauw.png" />
+    <asset path="src\lib\enemies\groen.png" />
+    <asset path="src\lib\enemies\rood.png" />
+    <asset path="src\lib\eindscherm.png" />
+    <asset path="src\lib\startscherm.png" />
+    <asset path="src\lib\UI_border.png" />
+    <asset path="src\lib\western_achtergrond-01.jpg" />
+    <asset path="src\lib\player.png" />
+    <asset path="src\lib\UI_statsbar.png" />
+    <asset path="src\lib\startknop_over.png" />
+    <asset path="src\lib\startknop.png" />
+    <asset path="src\lib\startknop_down.png" />
+    <asset path="src\lib\dollar_glow.png" />
+    <asset path="src\lib\ammo_glow-01.png" />
+    <asset path="src\lib\enemy.png" />
+    <asset path="src\lib\hartVol.png" />
+    <asset path="src\lib\Crosshair.png" />
+    <asset path="src\lib\richter.png" />
+    <asset path="animations\player\pancho_run.swf" />
+    <asset path="animations\player\pancho_hit.swf" />
+    <asset path="animations\player\pancho_death.swf" />
+    <asset path="animations\props\barrel\barrel_shatter_3.swf" />
+    <asset path="animations\props\barrel\barrel_shatter_1.swf" />
+    <asset path="animations\props\barrel\barrel_shatter_2.swf" />
+    <asset path="animations\props\barrel\barrel_animatie.swf" />
+    <asset path="animations\props\bottle\bottle.swf" />
+    <asset path="animations\props\bottle\bottle_bottom.swf" />
+    <asset path="animations\props\bottle\bottle_middle.swf" />
+    <asset path="animations\props\bottle\bottle_middle_2.swf" />
+    <asset path="animations\props\bottle\bottle_shatter.swf" />
+    <asset path="animations\misc\blood_animation.swf" />
+    <asset path="animations\player\arm\270_graden.png" />
+    <asset path="animations\player\arm\90_graden.png" />
+    <asset path="animations\enemy\fat\enemy_animations_(_Death_).swf" />
+    <asset path="animations\enemy\fat\enemy_animations_(_Hit_) (1).swf" />
+    <asset path="animations\enemy\fat\enemy_animations_(_Run_).swf" />
+    <asset path="animations\enemy\fat\enemy_animations_(_Throw_) (1).swf" />
+    <asset path="animations\enemy\slim\enemy.swf" />
+    <asset path="animations\enemy\slim\enemy_death.swf" />
+    <asset path="animations\enemy\slim\enemy_hit.swf" />
+    <asset path="animations\misc\Menu.swf" />
+    <asset path="animations\misc\gunflash.swf" />
+    <asset path="animations\screens\game_over_scherm.swf" />
+    <asset path="animations\screens\win_scherm.swf" />
+    <asset path="animations\screens\menu_achtergrond.swf" />
+    <asset path="animations\player\arm\90_graden.swf" />
+    <asset path="animations\player\arm\pivot_2.swf" />
+    <asset path="animations\player\arm\pivot.swf" />
+  </library>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="src\Main.as" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path="src\_MainFocktopVersie.as" />
+    <hidden path="obj" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="True" />
+    <option testMovie="Default" />
+    <option testMovieCommand="" />
+  </options>
+  <!-- Plugin storage -->
+  <storage />
+</project>
